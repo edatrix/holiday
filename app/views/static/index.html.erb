@@ -1,0 +1,18 @@
+<div class="container-fluid body">
+  <div class="col-sm-12">
+    <h2>merry christmas<span class="small"> and a happy new year</span></h2>
+  </div>
+
+  <% [@q1, @q2, @q3, @q4].each do |quarter| %>
+  <div class="row">
+    <% quarter.each do |month| %>
+      <div class="month col-sm-3">
+        <%= image_tag "resize_family.JPG" %>
+        <p class="hover-text">
+          <%= month %>
+        </p>
+      </div>
+    <% end %>
+  </div>
+  <% end %>
+</div>
