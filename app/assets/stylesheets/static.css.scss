@@ -1,15 +1,14 @@
 .month {
-  max-height: 350px;
+  height: 350px;
   overflow: hidden;
   background-color: #ddd;
   margin: 0 0 15px 70px;
   border-radius: 200px;
-  height: 440px;
   &:hover {
     background-color: #fff;
   }
   img {
-    max-height: 275px;
+    max-height: 350px;
     position: absolute;
     margin: auto;
     top: 0;
