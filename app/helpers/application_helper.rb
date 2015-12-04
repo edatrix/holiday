@@ -1,65 +1,89 @@
 module ApplicationHelper
 
-  MONTH_IMAGES = [
+  MONTHS = [
     {
       :month => 1,
-      :name => "our family",
-      :image => "family.JPG"
+      :name => "january",
+      :caption => "our family",
+      :image => "family.JPG",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 2,
-      :name => "",
-      :image => ""
+      :name => "february",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 3,
-      :name => "",
-      :image => ""
+      :name => "march",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 4,
-      :name => "",
-      :image => ""
+      :name => "april",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 5,
-      :name => "",
-      :image => ""
+      :name => "may",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 6,
-      :name => "",
-      :image => ""
+      :name => "june",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 7,
-      :name => "",
-      :image => ""
+      :name => "july",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 8,
-      :name => "",
-      :image => ""
+      :name => "august",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 9,
-      :name => "",
-      :image => ""
+      :name => "september",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 10,
-      :name => "",
-      :image => ""
+      :name => "october",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 11,
-      :name => "",
-      :image => ""
+      :name => "november",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     },
     {
       :month => 12,
-      :name => "",
-      :image => ""
+      :name => "december",
+      :caption => "",
+      :image => "",
+      :description => "here's some stuff that happened in this month."
     }
   ]
 

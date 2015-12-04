@@ -4,11 +4,11 @@
 
 <div class="row">
   <div class="col-sm-12">
-  <% ApplicationHelper::MONTH_IMAGES.zip(@months).each do |image, month| %>
+  <% ApplicationHelper::MONTHS.each do |month| %>
     <div class="month col-sm-3">
-      <%= image_tag "#{image[:image]}", :alt_text => "#{image[:name]}" %>
+      <%= image_tag "#{month[:image]}", :alt_text => "#{month[:caption]}" %>
       <p class="hover-text">
-        <%= month %>
+        <%= "#{month[:name]}" %>
       </p>
     </div>
   <% end %>
