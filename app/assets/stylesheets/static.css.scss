@@ -61,6 +61,18 @@ body#home {
   }
 }
 
+#calendar-button {
+  width: 85px;
+  padding: 10px;
+  text-align: center;
+  background-color: red;
+  border-radius: 150px;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
 // by-the-month page
 
 .month {
