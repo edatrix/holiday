@@ -1,14 +1,29 @@
 <body id="home">
-<div class="row">
-  <div class="col-sm-12">
-    <h2>merry christmas<span class="small"> and a happy new year</span></h2>
-    <p>maybe we should have some text here, like a little "oh hey, thanks for stopping by.  here's what's been going on."  ...or something?</p>
+<div class="container-fluid">
+  <h1 id="merry-christmas">merry christmas<span class="small"> and a happy new year</span></h1 id="merry-christmas">
+
+  <div class="row">
+    <div class=" col-md-5" id="words">
+      <p>happy holidays, friends!  we're so glad that you're a part of our lives and are glad you stopped by to see what's been going on in ours.</p>
+      <p>words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words </p>
+    </div>
+
+    <div class="col-md-7" id="home-photo">
+      <%= image_tag "family.jpg" %>
+      <p>we should also have a good family photo</p>
+    </div>
   </div>
-</div>
 
-<div>we should put a map in here somewhere</div>
+  <div class="row">
+    <div class="col-md-4" id="map">we should put a map in here somewhere</div>
+  </div>
 
-<div>
-  <%= link_to "here's what we did", by_the_month_path %>
+  <%= image_tag "https://media.giphy.com/media/HJkGbf8dVnyUM/giphy.gif" %>
+
+  <div>
+    <%= link_to by_the_month_path do %>
+      here's what went down <i class="fa fa-arrow-right"></i>
+    <% end %>
+  </div>
 </div>
 </body>

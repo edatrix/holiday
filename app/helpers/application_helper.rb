@@ -5,7 +5,7 @@ module ApplicationHelper
       :month => 1,
       :name => "january",
       :caption => "our family",
-      :image => "family.JPG",
+      :image => "family.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -33,7 +33,7 @@ module ApplicationHelper
       :month => 5,
       :name => "may",
       :caption => "",
-      :image => "",
+      :image => "may.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -54,7 +54,7 @@ module ApplicationHelper
       :month => 8,
       :name => "august",
       :caption => "",
-      :image => "",
+      :image => "august.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
