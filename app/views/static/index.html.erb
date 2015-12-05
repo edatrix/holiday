@@ -1,3 +1,4 @@
+<body id="home">
 <div class="row">
   <div class="col-sm-12">
     <h2>merry christmas<span class="small"> and a happy new year</span></h2>
@@ -5,15 +6,9 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col-sm-12">
-  <% ApplicationHelper::MONTHS.each do |month| %>
-    <div class="month col-sm-3">
-      <%= image_tag "#{month[:image]}", :alt_text => "#{month[:caption]}" %>
-      <p class="hover-text">
-        <%= "#{month[:name]}" %>
-      </p>
-    </div>
-  <% end %>
-  </div>
+<div>we should put a map in here somewhere</div>
+
+<div>
+  <%= link_to "here's what we did", by_the_month_path %>
 </div>
+</body>

@@ -1,14 +1,51 @@
+// background image on homepage
+
+body#home {
+  background: url(http://heartbreakerkidd.co/wp-content/uploads/2015/11/christmas-lights-j5plu7jmd.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#home::after {
+  content: "";
+  background: url(http://heartbreakerkidd.co/wp-content/uploads/2015/11/christmas-lights-j5plu7jmd.jpg);
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+// homepage
+
+body#home {
+  color: #fff;
+}
+
+// by-the-month page
+
 .month {
-  height: 350px;
+  height: 300px;
   overflow: hidden;
   background-color: #ddd;
-  margin: 0 0 15px 85px;
+  margin: 0 0 15px 0px;
   border-radius: 200px;
   &:hover {
     background-color: #fff;
   }
   img {
-    max-height: 350px;
+    max-height: 300px;
     position: absolute;
     margin: auto;
     top: 0;

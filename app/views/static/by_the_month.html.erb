@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-sm-12">
+  <% ApplicationHelper::MONTHS.each do |month| %>
+    <div class="month col-md-3">
+      <%= image_tag "#{month[:image]}", :alt_text => "#{month[:caption]}" %>
+      <p class="hover-text">
+        <%= "#{month[:name]}" %>
+      </p>
+    </div>
+  <% end %>
+  </div>
+</div>
