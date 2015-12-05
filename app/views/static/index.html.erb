@@ -3,28 +3,35 @@
   <h1 id="merry-christmas">merry christmas<span class="small"> and a happy new year</span></h1 id="merry-christmas">
 
   <div class="row">
-    <div class=" col-md-5" id="words">
-      <p>happy holidays, friends!  we're so glad that you're a part of our lives and are glad you stopped by to see what's been going on in ours.</p>
-      <p>words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words </p>
+    <div class="col-md-7">
+      <div id="home-photo">
+        <%= image_tag "family.jpg" %>
+        <p>we should also have a good family photo</p>
+      </div>
+      <div class="col-sm-12" id="words">
+        <div class="col-sm-10" >
+          <p>happy holidays, friends!  we're so glad that you're a part of our lives and are glad you stopped by to see what's been going on in ours.</p>
+          <p>words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words </p>
+        </div>
+        <div class="col-sm-2" id="calendar-button">
+          <%= link_to by_the_month_path do %>
+            here's what went down <i class="fa fa-arrow-right"></i>
+          <% end %>
+        </div>
+      </div>
     </div>
 
-    <div class="col-md-7" id="home-photo">
-      <%= image_tag "family.jpg" %>
-      <p>we should also have a good family photo</p>
+    <div class="col-md-5">
+      <div id="snow-globe">
+        <%= image_tag "1208_jefferson.jpg", :id => "house" %>
+        <%= image_tag "https://media.giphy.com/media/4M6xlFxZskH8A/giphy.gif", :id => "snow" %>
+        <div id="address">
+          <h4>We've moved!</h4>
+          <p>1208 Jefferson Ave <br> Louisville, CO 80027</p>
+        </div>
+      </div>
+      <div id="map">map or game or?</div>
     </div>
   </div>
-
-  <div id="calendar-button">
-    <%= link_to by_the_month_path do %>
-      here's what went down <i class="fa fa-arrow-right"></i>
-    <% end %>
-  </div>
-
-  <div class="row">
-    <div class="col-md-4" id="map">we should put a map in here somewhere</div>
-  </div>
-
-  <%= image_tag "https://media.giphy.com/media/HJkGbf8dVnyUM/giphy.gif" %>
-
 </div>
 </body>

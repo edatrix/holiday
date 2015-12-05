@@ -47,7 +47,36 @@ body#home {
   }
 }
 
+#snow-globe {
+  margin: 30px;
+  img {
+    margin-bottom: -35px;
+    height: 400px;
+    max-width: 400px;
+    border-radius: 200px;
+  }
+  #house {
+    position: relative;
+    z-index: 5;
+  }
+  #snow {
+    position: relative;
+    margin-top: -375px;
+    z-index: 30;
+  }
+  #address {
+    position: relative;
+    z-index: 999;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    background-color: #666;
+    border-radius: 60px 60px 10px 10px;
+  }
+}
+
 #map {
+  margin: 10px;
   height: 300px;
   background-color: #ddd;
 }
