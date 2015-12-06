@@ -131,14 +131,13 @@ body#home {
   height: 300px;
   overflow: hidden;
   background-color: #ddd;
-  padding: 10px;
-  margin: 0 0 15px 20px;
+  margin: 20px 5px 15px 20px;
   border-radius: 200px;
   &:hover {
     background-color: #fff;
   }
   img {
-    width: 320px;
+    height: 350px;
     position: absolute;
     margin: auto;
     top: 0;
@@ -147,7 +146,6 @@ body#home {
     bottom: 0;
   }
   .hover-text {
-    display: none;
     margin: 0;
     color: #fff;
     background-color: rgba(50, 50, 50, 0.8);
