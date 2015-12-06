@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Spluhring Holiday 2015</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Latest compiled and minified CSS -->
@@ -11,13 +11,16 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <!-- font awesome is awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <!-- google font 'Dancing Script' -->
+  <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <div class="container-fluid body">
   <%= yield %>
+  <br>
   <p class="small" style="text-align:center;">lauren and chris made this site because we love you.</p>
 </div>
 

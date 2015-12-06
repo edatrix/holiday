@@ -4,3 +4,5 @@
 
 here are some resources we used:
 * [free Christmas fonts!](http://designeditor.typepad.com/design_editor/2011/12/font-friday-free-christmas-fonts.html)
+* [calendar background](http://www.twitterevolutions.com/bgs/red-christmas-lights-twitter-background.jpg)
+* [homepage background](http://bgfons.com/img/misc/christmas)
