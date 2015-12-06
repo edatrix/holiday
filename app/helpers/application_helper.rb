@@ -5,28 +5,28 @@ module ApplicationHelper
       :month => 1,
       :name => "january",
       :caption => "our family",
-      :image => "family.jpg",
+      :image => "january.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
       :month => 2,
       :name => "february",
       :caption => "",
-      :image => "",
+      :image => "february.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
       :month => 3,
       :name => "march",
       :caption => "",
-      :image => "",
+      :image => "march.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
       :month => 4,
       :name => "april",
       :caption => "",
-      :image => "",
+      :image => "april_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -40,14 +40,14 @@ module ApplicationHelper
       :month => 6,
       :name => "june",
       :caption => "",
-      :image => "",
+      :image => "june.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
       :month => 7,
       :name => "july",
       :caption => "",
-      :image => "",
+      :image => "july.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -61,28 +61,28 @@ module ApplicationHelper
       :month => 9,
       :name => "september",
       :caption => "",
-      :image => "",
+      :image => "september.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
       :month => 10,
       :name => "october",
       :caption => "",
-      :image => "",
+      :image => "october_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
       :month => 11,
       :name => "november",
       :caption => "",
-      :image => "",
+      :image => "november.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
       :month => 12,
       :name => "december",
       :caption => "",
-      :image => "",
+      :image => "december.jpg",
       :description => "here's some stuff that happened in this month."
     }
   ]

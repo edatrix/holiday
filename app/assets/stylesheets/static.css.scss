@@ -80,7 +80,7 @@ body#home {
     margin-left: 25px;
     width: 350px;
     text-align: center;
-    background-color: #333;
+    background: linear-gradient(to top, #333, #666);
     border-radius: 60px 60px 10px 10px;
     h3 {
       font-family: 'Channel'
@@ -99,6 +99,7 @@ body#home {
 
 #home-photo {
   border-radius: 10px;
+  margin-bottom: 20px;
   img {
     clear: both;
     max-width: 100%;
@@ -107,11 +108,14 @@ body#home {
 }
 
 #calendar-button {
-  width: 85px;
   padding: 10px;
   text-align: center;
-  background-color: red;
-  border-radius: 150px;
+  background: linear-gradient(to bottom, #006400, #4c924c);
+  border-radius: 50px;
+  font-family: "Channel";
+  h2 {
+    margin: 0;
+  }
   a {
     color: #fff;
     text-decoration: none;
@@ -134,7 +138,7 @@ body#home {
     background-color: #fff;
   }
   img {
-    max-height: 300px;
+    width: 320px;
     position: absolute;
     margin: auto;
     top: 0;
