@@ -6,13 +6,15 @@ module ApplicationHelper
       :name => "january",
       :caption => "our family",
       :image => "january.jpg",
-      :description => "here's some stuff that happened in this month."
+      :image_2 => "january_1.jpg",
+      :description => "here's some stuff that happened in this month.  wooooooo"
     },
     {
       :month => 2,
       :name => "february",
       :caption => "",
       :image => "february.jpg",
+      :image_2 => "february_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -20,6 +22,7 @@ module ApplicationHelper
       :name => "march",
       :caption => "",
       :image => "march.jpg",
+      :image_2 => "march_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -27,6 +30,7 @@ module ApplicationHelper
       :name => "april",
       :caption => "",
       :image => "april_1.jpg",
+      :image_2 => "april_1_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -34,6 +38,7 @@ module ApplicationHelper
       :name => "may",
       :caption => "",
       :image => "may.jpg",
+      :image_2 => "may_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -41,6 +46,7 @@ module ApplicationHelper
       :name => "june",
       :caption => "",
       :image => "june.jpg",
+      :image_2 => "june_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -48,6 +54,7 @@ module ApplicationHelper
       :name => "july",
       :caption => "",
       :image => "july.jpg",
+      :image_2 => "july_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -55,6 +62,7 @@ module ApplicationHelper
       :name => "august",
       :caption => "",
       :image => "august.jpg",
+      :image_2 => "august_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -62,6 +70,7 @@ module ApplicationHelper
       :name => "september",
       :caption => "",
       :image => "september.jpg",
+      :image_2 => "september_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -69,6 +78,7 @@ module ApplicationHelper
       :name => "october",
       :caption => "",
       :image => "october_1.jpg",
+      :image_2 => "october_1_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -76,6 +86,7 @@ module ApplicationHelper
       :name => "november",
       :caption => "",
       :image => "november.jpg",
+      :image_2 => "november_1.jpg",
       :description => "here's some stuff that happened in this month."
     },
     {
@@ -83,6 +94,7 @@ module ApplicationHelper
       :name => "december",
       :caption => "",
       :image => "december.jpg",
+      :image_2 => "december_1.jpg",
       :description => "here's some stuff that happened in this month."
     }
   ]

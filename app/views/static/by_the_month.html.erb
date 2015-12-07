@@ -1,16 +1,21 @@
 <body id="calendar">
 <div class="container-fluid">
   <div class="row">
-    <!-- <div class="col-sm-12"> -->
     <% ApplicationHelper::MONTHS.each do |month| %>
-      <div class="month ">
-        <%= image_tag "#{month[:image]}", :alt_text => "#{month[:caption]}" %>
-        <p class="hover-text">
-          <%= "#{month[:name]}" %>
-        </p>
-      </div>
+      <%= link_to "#" + "#{month[:name]}", 'data-toggle' => 'modal' do %>
+        <div class="month ">
+          <%= image_tag "#{month[:image]}", :alt_text => "#{month[:caption]}" %>
+          <p class="hover-text">
+            <%= "#{month[:name]}" %>
+          </p>
+        </div>
+      <% end %>
+      <%= render :partial => "month", :locals => {
+                                      :month => "#{month[:name]}",
+                                      :description => "#{month[:description]}",
+                                      :image_2 => "#{month[:image_2]}"
+                                     } %>
     <% end %>
-    <!-- </div> -->
   </div>
 </div>
 </body>
