@@ -1,3 +1,4 @@
+// show/hide month names
 $(function () {
   $('.month').hover(function () {
     $(this).find('.hover-text').hide();
@@ -6,6 +7,8 @@ $(function () {
   });
 });
 
+
+// get those snowflakes
 $(function() {
   window.keydown = {};
 
