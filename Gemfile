@@ -28,3 +28,5 @@ gem 'spring',        group: :development
 
 # let's get some icons up in here
 gem "font-awesome-rails"
+# makes those keys "hot"
+gem 'jquery-hotkeys-rails'
