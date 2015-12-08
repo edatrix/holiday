@@ -20,7 +20,7 @@ body#home {
 }
 
 body#calendar {
-  background: url(http://www.twitterevolutions.com/bgs/red-christmas-lights-twitter-background.jpg) no-repeat center center fixed;
+  background: url(http://www.patsoy.com/p/ktz/christmas-lights-pictures-klfmqf0i-308h0xyfdfxpmgxlfeosg0.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -80,7 +80,7 @@ body#home {
     margin-left: 25px;
     width: 350px;
     text-align: center;
-    background-color: #333;
+    background: linear-gradient(to top, #333, #666);
     border-radius: 60px 60px 10px 10px;
     h3 {
       font-family: 'Channel'
@@ -99,6 +99,7 @@ body#home {
 
 #home-photo {
   border-radius: 10px;
+  margin-bottom: 20px;
   img {
     clear: both;
     max-width: 100%;
@@ -107,18 +108,21 @@ body#home {
 }
 
 #calendar-button {
-  width: 85px;
   padding: 10px;
   text-align: center;
-  background-color: red;
-  border-radius: 150px;
+  background: linear-gradient(to bottom, #006400, #4c924c);
+  border-radius: 50px;
+  font-family: "Channel";
+  h2 {
+    margin: 0;
+  }
   a {
     color: #fff;
     text-decoration: none;
   }
 }
 
-// by-the-month page
+// year in review
 
 .month {
   float: left;
@@ -127,14 +131,13 @@ body#home {
   height: 300px;
   overflow: hidden;
   background-color: #ddd;
-  padding: 10px;
-  margin: 0 0 15px 20px;
+  margin: 20px 5px 15px 20px;
   border-radius: 200px;
   &:hover {
     background-color: #fff;
   }
   img {
-    max-height: 300px;
+    height: 350px;
     position: absolute;
     margin: auto;
     top: 0;
@@ -143,7 +146,6 @@ body#home {
     bottom: 0;
   }
   .hover-text {
-    display: none;
     margin: 0;
     color: #fff;
     background-color: rgba(50, 50, 50, 0.8);
@@ -154,6 +156,7 @@ body#home {
     right: 0;
     z-index: 999;
     padding: 130px 15px 15px 15px;
+    font-family: "Channel";
     text-align: center;
     font-size: 20px;
   }
