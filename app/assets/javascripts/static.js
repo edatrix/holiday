@@ -94,7 +94,7 @@ Number.prototype.clamp = function(min, max) {
     return proxy;
   };
 
-  var spriteImagePath = "assets";
+  var spriteImagePath = "assets/";
 
   window.Sprite = function(name, callback) {
     return Sprite.load(spriteImagePath + name + ".png", callback);
