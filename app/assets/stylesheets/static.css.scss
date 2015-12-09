@@ -9,10 +9,21 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'nightmare_before_christmas';
+  src: url(/assets/nightmare_before_christmas.ttf);
+  src: url(/assets/nightmare_before_christmas.ttf?#iefix) format("embedded-opentype"),
+    url(/assets/nightmare_before_christmas.ttf) format("truetype"),
+    url(/assets/nightmare_before_christmas.woff) format("woff"),
+    url(/assets/nightmare_before_christmas.svg#nightmare_before_christmas) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 // background images
 
 body#home {
-  background: url(http://bgfons.com/upload/christmas_texture2693.jpg) no-repeat center center fixed;
+  background: url(https://cdn.shopify.com/s/files/1/0241/9661/products/BlurryLights_Blue_web.jpg?v=1423261758) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -122,13 +133,44 @@ body#home {
   }
 }
 
+#ribbon {
+  padding: 40px;
+  margin: 0 auto;
+  width: 800px;
+  color: #666;
+  #ribbon-text {
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    padding-left: 19%;
+    padding-top: 40px;
+    h1 {
+      font-size: 45px;
+      font-family: "Channel";
+      margin-bottom: -10px;
+    }
+    p {
+      padding-left: 85px;
+      font-family: "nightmare_before_christmas";
+      font-size: 23px;
+    }
+  }
+  img {
+    float: left;
+    position: relative;
+    z-index: 1;
+    clear: none;
+    max-width: 100%;
+  }
+}
+
 // year in review
 
 .month {
   float: left;
   position: relative;
   width: 23%;
-  height: 300px;
+  height: 315px;
   overflow: hidden;
   background-color: #ddd;
   margin: 20px 5px 15px 20px;
