@@ -39,12 +39,10 @@
   <!-- <body id="calendar"> -->
     <!-- <div class="container-fluid"> -->
     <div id="year-in-review">
-      <div id="ribbon">
-        <%= image_tag "ribbon.png" %>
-        <div id="ribbon-text">
-          <h1>2015</h1>
-          <p>in review</p>
-        </div>
+      <div id="ribbon" class="row">
+        <%= image_tag "tada.png", :class => "tada" %>
+        <p>2015 in review</p>
+        <%= image_tag "tada.png", :class => "tada" %>
       </div>
       <div class="row">
         <% ApplicationHelper::MONTHS.each do |month| %>
