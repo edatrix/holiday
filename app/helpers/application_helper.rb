@@ -7,7 +7,7 @@ module ApplicationHelper
       :caption => "our family",
       :image => "january.jpg",
       :image_2 => "january_1.jpg",
-      :description => "here's some stuff that happened in this month.  wooooooo"
+      :description => "not that much happened in January :-/  you were busy with school, jude got sick."
     },
     {
       :month => 2,
@@ -15,7 +15,7 @@ module ApplicationHelper
       :caption => "",
       :image => "february.jpg",
       :image_2 => "february_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "awesome exhibit at MCA, your parents came for a visit, snow."
     },
     {
       :month => 3,
@@ -23,7 +23,7 @@ module ApplicationHelper
       :caption => "",
       :image => "march.jpg",
       :image_2 => "march_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "it might be harder than i thought to add something clever about each month..."
     },
     {
       :month => 4,
@@ -31,7 +31,7 @@ module ApplicationHelper
       :caption => "",
       :image => "april_1.jpg",
       :image_2 => "april_1_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "Giant Baby's 1st birthday, Easter."
     },
     {
       :month => 5,
@@ -39,7 +39,7 @@ module ApplicationHelper
       :caption => "",
       :image => "may.jpg",
       :image_2 => "may_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "Chrissy birthday, Mom S. visit."
     },
     {
       :month => 6,
@@ -47,7 +47,7 @@ module ApplicationHelper
       :caption => "",
       :image => "june.jpg",
       :image_2 => "june_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "SUMMER - swimming, popsicles, Jude's first haircut."
     },
     {
       :month => 7,
@@ -55,7 +55,7 @@ module ApplicationHelper
       :caption => "",
       :image => "july.jpg",
       :image_2 => "july_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "St. Louis, Tim's wedding, Grandma Lou's birthday"
     },
     {
       :month => 8,
@@ -63,7 +63,7 @@ module ApplicationHelper
       :caption => "",
       :image => "august.jpg",
       :image_2 => "august_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "move to house, Steamboat, Mom and Dad S. visit, Jude tubes."
     },
     {
       :month => 9,
@@ -71,7 +71,7 @@ module ApplicationHelper
       :caption => "",
       :image => "september.jpg",
       :image_2 => "september_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "Red Rocks, hikes, lauren birthday."
     },
     {
       :month => 10,
@@ -79,7 +79,7 @@ module ApplicationHelper
       :caption => "",
       :image => "october_1.jpg",
       :image_2 => "october_1_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "Potter Party, Halloween, Dad S. visit, trip to Iowa"
     },
     {
       :month => 11,
@@ -87,7 +87,7 @@ module ApplicationHelper
       :caption => "",
       :image => "november.jpg",
       :image_2 => "november_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "Chris starts a new job (or was that Oct?)!  airplane museum...this month just happened and i can't even think."
     },
     {
       :month => 12,
@@ -95,7 +95,7 @@ module ApplicationHelper
       :caption => "",
       :image => "december.jpg",
       :image_2 => "december_1.jpg",
-      :description => "here's some stuff that happened in this month."
+      :description => "idk"
     }
   ]
 
