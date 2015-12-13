@@ -28,7 +28,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # heroku is a pita
-gem "rails_12factor"
+gem "rails_12factor", :group => :production
 
 # let's get some icons up in here
 gem "font-awesome-rails"
