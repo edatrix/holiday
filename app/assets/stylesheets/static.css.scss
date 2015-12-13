@@ -1,21 +1,21 @@
 @font-face {
   font-family: 'Channel';
-  src: font-url("/assets/Channel.ttf");
-  src: font-url("/assets/Channel.ttf?#iefix") format("embedded-opentype"),
-    font-url("/assets/Channel.ttf") format("truetype"),
-    font-url("/assets/Channel.woff") format("woff"),
-    font-url("/assets/Channel.svg#Channel") format("svg");
+  src: font-url("Channel.ttf");
+  src: font-url("Channel.ttf?#iefix") format("embedded-opentype"),
+    font-url("Channel.ttf") format("truetype"),
+    font-url("Channel.woff") format("woff"),
+    font-url("Channel.svg#Channel") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'nightmare_before_christmas';
-  src: font-url("/assets/nightmare_before_christmas.ttf");
-  src: font-url("/assets/nightmare_before_christmas.ttf?#iefix") format("embedded-opentype"),
-    font-url("/assets/nightmare_before_christmas.ttf") format("truetype"),
-    font-url("/assets/nightmare_before_christmas.woff") format("woff"),
-    font-url("/assets/nightmare_before_christmas.svg#nightmare_before_christmas") format("svg");
+  src: font-url("nightmare_before_christmas.ttf");
+  src: font-url("nightmare_before_christmas.ttf?#iefix") format("embedded-opentype"),
+    font-url("nightmare_before_christmas.ttf") format("truetype"),
+    font-url("nightmare_before_christmas.woff") format("woff"),
+    font-url("nightmare_before_christmas.svg#nightmare_before_christmas") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -124,8 +124,8 @@ body#home {
 }
 
 #ribbon {
-  width: 800px;
-  margin: 0 auto;
+  width: 100%;
+  margin-left: 25%;
   margin-top: 50px;
   font-family: "Channel";
   text-align: center;
