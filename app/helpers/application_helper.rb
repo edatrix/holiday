@@ -29,7 +29,7 @@ module ApplicationHelper
       :month => 4,
       :name => "april",
       :caption => "",
-      :image => "april_1.jpg",
+      :image => "april.jpg",
       :image_2 => "april_1_1.jpg",
       :description => "Giant Baby's 1st birthday, Easter."
     },
@@ -38,7 +38,7 @@ module ApplicationHelper
       :name => "may",
       :caption => "",
       :image => "may.jpg",
-      :image_2 => "may_1.jpg",
+      :image_2 => "may_2.jpg",
       :description => "Chrissy birthday, Mom S. visit."
     },
     {
@@ -61,7 +61,7 @@ module ApplicationHelper
       :month => 8,
       :name => "august",
       :caption => "",
-      :image => "august.jpg",
+      :image => "august_3.jpg",
       :image_2 => "august_1.jpg",
       :description => "move to house, Steamboat, Mom and Dad S. visit, Jude tubes."
     },
@@ -70,7 +70,7 @@ module ApplicationHelper
       :name => "september",
       :caption => "",
       :image => "september.jpg",
-      :image_2 => "september_1.jpg",
+      :image_2 => "september_2.jpg",
       :description => "Red Rocks, hikes, lauren birthday."
     },
     {
@@ -78,7 +78,7 @@ module ApplicationHelper
       :name => "october",
       :caption => "",
       :image => "october_1.jpg",
-      :image_2 => "october_1_1.jpg",
+      :image_2 => "october_3.jpg",
       :description => "Potter Party, Halloween, Dad S. visit, trip to Iowa"
     },
     {
