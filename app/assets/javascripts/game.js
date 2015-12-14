@@ -1,12 +1,12 @@
 function getThoseFlakes() {
 
-  var CANVAS_WIDTH = 480;
+  var CANVAS_WIDTH = 527;
   var CANVAS_HEIGHT = 320;
 
   var canvasElement = $("<canvas id='myCanvas' width='" + CANVAS_WIDTH +
                         "' height='" + CANVAS_HEIGHT + "'></canvas>");
   var canvas = canvasElement.get(0).getContext("2d");
-  canvasElement.appendTo('.game');
+  canvasElement.appendTo('#game');
 
   var FPS = 30;
   setInterval(function() {
