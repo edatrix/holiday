@@ -7,7 +7,6 @@ module ApplicationHelper
       :caption => "our family",
       :image => "january.jpg",
       :image_2 => "january_1.jpg",
-      :image_3 => "",
       :description => "not that much happened in January :-/  you were busy with school, jude got sick."
     },
     {
@@ -16,7 +15,6 @@ module ApplicationHelper
       :caption => "",
       :image => "february.jpg",
       :image_2 => "february_1.jpg",
-      :image_3 => "",
       :description => "awesome exhibit at MCA, your parents came for a visit, snow."
     },
     {
@@ -25,7 +23,6 @@ module ApplicationHelper
       :caption => "",
       :image => "march.jpg",
       :image_2 => "march_1.jpg",
-      :image_3 => "",
       :description => "it might be harder than i thought to add something clever about each month..."
     },
     {
@@ -34,7 +31,6 @@ module ApplicationHelper
       :caption => "",
       :image => "april.jpg",
       :image_2 => "april_1_1.jpg",
-      :image_3 => "",
       :description => "Giant Baby's 1st birthday, Easter."
     },
     {
@@ -43,7 +39,6 @@ module ApplicationHelper
       :caption => "",
       :image => "may.jpg",
       :image_2 => "may_2.jpg",
-      :image_3 => "",
       :description => "Chrissy birthday, Mom S. visit."
     },
     {
@@ -52,16 +47,14 @@ module ApplicationHelper
       :caption => "",
       :image => "june.jpg",
       :image_2 => "june_1.jpg",
-      :image_3 => "",
       :description => "SUMMER - swimming, popsicles, Jude's first haircut."
     },
     {
       :month => 7,
       :name => "july",
       :caption => "",
-      :image => "july_1.jpg",
-      :image_2 => "july.jpg",
-      :image_3 => "",
+      :image => "july.jpg",
+      :image_2 => "july_1.jpg",
       :description => "St. Louis, Tim's wedding, Grandma Lou's birthday"
     },
     {
@@ -70,7 +63,6 @@ module ApplicationHelper
       :caption => "",
       :image => "august_3.jpg",
       :image_2 => "august_1.jpg",
-      :image_3 => "",
       :description => "move to house, Steamboat, Mom and Dad S. visit, Jude tubes."
     },
     {
@@ -79,7 +71,6 @@ module ApplicationHelper
       :caption => "",
       :image => "september.jpg",
       :image_2 => "september_2.jpg",
-      :image_3 => "",
       :description => "Red Rocks, hikes, lauren birthday."
     },
     {
@@ -88,7 +79,6 @@ module ApplicationHelper
       :caption => "",
       :image => "october_1.jpg",
       :image_2 => "october_3.jpg",
-      :image_3 => "",
       :description => "Potter Party, Halloween, Dad S. visit, trip to Iowa"
     },
     {
@@ -97,7 +87,6 @@ module ApplicationHelper
       :caption => "",
       :image => "november.jpg",
       :image_2 => "november_1.jpg",
-      :image_3 => "",
       :description => "Chris starts a new job (or was that Oct?)!  airplane museum...this month just happened and i can't even think."
     },
     {
@@ -106,7 +95,6 @@ module ApplicationHelper
       :caption => "",
       :image => "december.jpg",
       :image_2 => "december_1.jpg",
-      :image_3 => "",
       :description => "idk"
     }
   ]
