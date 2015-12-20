@@ -56,6 +56,16 @@ function getThoseFlakes() {
     enemies.forEach(function(enemy) {
       enemy.draw();
     });
+
+    canvas.fillStyle = "rgb(250, 250, 250)";
+    canvas.font = "24px Channel";
+    canvas.textAlign = "start";
+    canvas.moveTo(180, 900);
+    canvas.textBaseline = "Bottom";
+    canvas.fillText("Snowflakes Caught: " + snowflakesCaught, 82, 42);
+    // if(coinsCaught == 5) {
+    //     window.location = "5.html";
+    //   };
   }
 
   var player = {
@@ -152,8 +162,11 @@ function getThoseFlakes() {
   }
 
   player.explode = function() {
-    console.log("1");
+    snowflakesCaught += 1;
+
   };
+
+  var snowflakesCaught = 0;
 
   player.sprite1 = Sprite("tongue1");
   player.sprite2 = Sprite("tongue2");
