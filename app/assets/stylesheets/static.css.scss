@@ -40,6 +40,10 @@ body#home {
   margin: 40px;
 }
 
+#left-body {
+  padding-left: 30px;
+}
+
 #words {
   background:#7f7f7f;
   background:rgba(255,255,255,0.5);
@@ -155,13 +159,11 @@ body#home {
 // year in review
 
 .month {
-  float: left;
   position: relative;
-  width: 23%;
   height: 315px;
   overflow: hidden;
   background-color: #ddd;
-  margin: 20px 5px 15px 20px;
+  margin: 15px 0;
   border-radius: 200px;
   &:hover {
     background-color: #fff;
