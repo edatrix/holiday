@@ -5,7 +5,7 @@ module ApplicationHelper
       :month => 1,
       :name => "january",
       :caption => "our family",
-      :image => "january.jpg",
+      :image => "jan.png",
       :image_2 => "january_1.jpg",
       :image_3 => "",
       :description => "not that much happened in January :-/  you were busy with school, jude got sick."
