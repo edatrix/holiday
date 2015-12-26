@@ -7,16 +7,25 @@
         <%= image_tag "family.jpg" %>
       </div>
       <div class="col-sm-12" id="words">
-        <div class="col-sm-9" >
-          <p>happy holidays, friends!  we're so glad that you're a part of our lives and are glad you stopped by to see what's been going on in ours.</p>
+        <div class="col-sm-10" >
+          <p>happy holidays, friends!  we're so thankful that you're a part of our lives and are glad you stopped by to see what's been going on in ours.</p>
           <p>
-            2015 has been a whirlwind of a year for us.  we still love living in Colorado and spent as much time as we could enjoying the gorgeous weather.  we made good use of our membership to the Denver Botanic Gardens and spent a lot of time hiking, swimming, and attending outdoor concerts.
+            2015 has been a whirlwind of a year for us.  Chris finished an intensive program at the Turing School of Software and Design in May and in August we moved to a new home in Louisville, CO.  lauren is still working at NREL in Golden, CO, and in November, Chris started a new job at Optum United Healthcare.
           </p>
           <p>
-            Chris finished an intensive program at the Turing School of Software and Design in May and in August we moved to a new home in Louisville, CO.
+            we still love living in Colorado and spent as much time as we could enjoying the gorgeous weather.  we made good use of our membership to the Denver Botanic Gardens and were sure to find lots of time for hiking, swimming, and attending outdoor concerts.
+          </p>
+          <p>
+            our big boy Jude is now 20 months old and loves reading books, Thomas the Train, playing with legos and blocks, bossing us around, and eating all the things.  both he and our fat cat, Julius, love our new home, but we are sad that our dog, Sandy, couldn't enjoy more time in it with us.  shortly after we moved and more than 8 years after we adopted her from the Denver Dumb Friends League, Sandy passed away.  she was the best dog.
+          </p>
+          <p>
+            wishing you all the best in this new year and sending you all our love,
+          </p>
+          <p id="signature">
+            lauren, chris, and jude
           </p>
         </div>
-        <div class="col-sm-3" id="calendar-button">
+        <div class="col-sm-2" id="calendar-button">
           <%= link_to "#year-in-review" do %>
             <h2>2015</h2>
             in review <i class="fa fa-arrow-right"></i>
@@ -62,7 +71,9 @@
                                         :month => "#{month[:name]}",
                                         :description => "#{month[:description]}",
                                         :image_2 => "#{month[:image_2]}",
-                                        :image_3 => "#{month[:image_3]}"
+                                        :image_3 => "#{month[:image_3]}",
+                                        :image_4 => "#{month[:image_4]}",
+                                        :image_5 => "#{month[:image_5]}"
                                        } %>
       <% end %>
     </div>

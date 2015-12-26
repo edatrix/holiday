@@ -6,9 +6,9 @@ module ApplicationHelper
       :name => "january",
       :caption => "our family",
       :image => "jan.png",
-      :image_2 => "january_1.jpg",
-      :image_3 => "",
-      :description => "not that much happened in January :-/  you were busy with school, jude got sick."
+      :image_2 => "january_2.jpg",
+      :image_3 => "january_1.jpg",
+      :description => "After Christmas in Iowa, we started 2015 slowly with a big fall at daycare, a lot of code, and an increasingly mobile boy."
     },
     {
       :month => 2,
@@ -16,8 +16,8 @@ module ApplicationHelper
       :caption => "",
       :image => "february.jpg",
       :image_2 => "february_1.jpg",
-      :image_3 => "",
-      :description => "awesome exhibit at MCA, your parents came for a visit, snow."
+      :image_3 => "february_2.jpg",
+      :description => "February brought big snow, more schoolwork, and a visit to Denver's Museum of Contemporary Art for an awesome Mark Mothersbaugh exhibit."
     },
     {
       :month => 3,
@@ -25,26 +25,29 @@ module ApplicationHelper
       :caption => "",
       :image => "march.jpg",
       :image_2 => "march_1.jpg",
-      :image_3 => "",
-      :description => "it might be harder than i thought to add something clever about each month..."
+      :image_3 => "march_2.jpg",
+      :image_4 => "march_3.jpg",
+      :image_5 => "march_4.jpg",
+      :description => "Things started to warm up in March, and we introduced Giant Baby to grass.  it took him a while to warm up to it, but now he likes how it tickles his toes!"
     },
     {
       :month => 4,
       :name => "april",
       :caption => "",
       :image => "april.jpg",
-      :image_2 => "april_1_1.jpg",
-      :image_3 => "",
-      :description => "Giant Baby's 1st birthday, Easter."
+      :image_2 => "april_1.jpg",
+      :image_3 => "april_2.jpg",
+      :image_4 => "april_3.JPG",
+      :description => "Jude turned 1 in April and we celebrated with lots of friends and family!"
     },
     {
       :month => 5,
       :name => "may",
       :caption => "",
       :image => "may.jpg",
-      :image_2 => "may_2.jpg",
-      :image_3 => "",
-      :description => "Chrissy birthday, Mom S. visit."
+      :image_2 => "may_1.jpg",
+      :image_3 => "may_2.jpg",
+      :description => "As the weather warmed up and Chrissy finished with school, we were able to explore a bit more of Colorado, including Jude's first trip to the zoo."
     },
     {
       :month => 6,
@@ -52,17 +55,16 @@ module ApplicationHelper
       :caption => "",
       :image => "june.jpg",
       :image_2 => "june_1.jpg",
-      :image_3 => "",
-      :description => "SUMMER - swimming, popsicles, Jude's first haircut."
+      :description => "Jude, a master walker by June, began learning a new skill, swimming!!! This boy loves pooltime, popsicles, and bike rides even more than his mom and dad. A couple other exciting firsts of note, first haircut and first Cardinals & Rockies game."
     },
     {
       :month => 7,
       :name => "july",
       :caption => "",
       :image => "july_1.jpg",
-      :image_2 => "july.jpg",
-      :image_3 => "",
-      :description => "St. Louis, Tim's wedding, Grandma Lou's birthday"
+      :image_2 => "july_2.jpg",
+      :image_3 => "july.jpg",
+      :description => "In July, we took our first big trip with Jude, meeting lots of Lauren's mom's family in St. Louis for Tim and Sarah's wedding, after first stopping in Columbia, MO to celebrate Grandma Lou's 85th birthday with the St. Johns."
     },
     {
       :month => 8,
@@ -70,8 +72,9 @@ module ApplicationHelper
       :caption => "",
       :image => "august_3.jpg",
       :image_2 => "august_1.jpg",
-      :image_3 => "",
-      :description => "move to house, Steamboat, Mom and Dad S. visit, Jude tubes."
+      :image_3 => "august_2.jpg",
+      :image_4 => "august.jpg",
+      :description => "We finally moved into a new house in August, as our apartment had grown too small for our boy. We also enjoyed hosting Lauren's folks in from Indiana and attending the nuptuals of our friends, Nick & Ellie Morris in beautiful Steamboat Springs, CO. August was also a turning point for Jude against the dreaded ear infection. We tubed that boys ears real nice."
     },
     {
       :month => 9,
@@ -79,8 +82,9 @@ module ApplicationHelper
       :caption => "",
       :image => "september.jpg",
       :image_2 => "september_2.jpg",
-      :image_3 => "",
-      :description => "Red Rocks, hikes, lauren birthday."
+      :image_3 => "september_1.jpg",
+      :image_4 => "september_3.jpg",
+      :description => "September is the best, football games, concerts at Red Rocks, beautiful mountain hikes, brunches, and lauren's 32nd birthday."
     },
     {
       :month => 10,
@@ -88,8 +92,9 @@ module ApplicationHelper
       :caption => "",
       :image => "october_1.jpg",
       :image_2 => "october_3.jpg",
-      :image_3 => "",
-      :description => "Potter Party, Halloween, Dad S. visit, trip to Iowa"
+      :image_3 => "october_2.jpg",
+      :image_4 => "october.jpg",
+      :description => "We kicked off October by visiting Chris' folks in Iowa, introducing Jude to farm life, and ended the month by introducing Jude to Harry Potter, a magical world we can't wait to explore with our boy. We also fostered Jude's growing obsession with Trains, exploring the Colorado Train Musuem with Lauren's dad."
     },
     {
       :month => 11,
@@ -97,8 +102,7 @@ module ApplicationHelper
       :caption => "",
       :image => "november.jpg",
       :image_2 => "november_1.jpg",
-      :image_3 => "",
-      :description => "Chris starts a new job (or was that Oct?)!  airplane museum...this month just happened and i can't even think."
+      :description => "Chris began a new job at UnitedHealth Group / Optum Technologies, we explored the Denver Air museum with Jude's friend Jordy and Mica and hosted the Luhrings for Turkey Day 2015."
     },
     {
       :month => 12,
@@ -106,8 +110,7 @@ module ApplicationHelper
       :caption => "",
       :image => "december.jpg",
       :image_2 => "december_1.jpg",
-      :image_3 => "",
-      :description => "idk"
+      :description => "December always seems to fly by and this year was no exception. All of the sudden its Christmas Day in Fort Wayne, IN and our Christmas App Card isn't finished! Thanks for taking time to come this far with us. We love you and thank you for caring about our family. Looking forward to many more firsts in 2016!"
     }
   ]
 
