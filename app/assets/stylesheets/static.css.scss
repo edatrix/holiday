@@ -206,4 +206,7 @@ body#home {
 .modal {
   color: #666;
   overflow: show;
+  .carousel-caption {
+    padding-bottom: 0;
+  }
 }

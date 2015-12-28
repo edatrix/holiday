@@ -6,27 +6,26 @@
         <h4 class="modal-title" id="myModalLabel"><%= month %></h4>
       </div>
       <!-- carousel -->
-        <div id="feature_carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
-          <div class="carousel-inner">
-            <% images.values.each do |image| %>
-              <% image.each_with_index do |photo, index| %>
-                <% if photo.present? %>
-                <div class="<% if index == 0 %> active <% end %> item">
-                  <%= image_tag photo %>
-                  <div class="carousel-caption">
-                    <%= description %>
-                  </div>
+        <div id="<%= month %>-carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner">
+          <% images.values.each do |image| %>
+            <% image.each_with_index do |photo, index| %>
+              <% if photo.present? %>
+              <div class="<% if index == 0 %> active <% end %> item">
+                <%= image_tag photo %>
+                <div class="carousel-caption">
+                  <%= description %>
                 </div>
-              <% end %>
+              </div>
               <% end %>
             <% end %>
-            <script type="text/javascript">$('.feature_carousel').carousel();</script>
-          </div>
-        <a class="left carousel-control" href="#feature_carousel" role="button" data-slide="prev">
+          <% end %>
+        </div>
+        <a class="left carousel-control" href="#<%= month %>-carousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#feature_carousel" role="button" data-slide="next">
+        <a class="right carousel-control" href="#<%= month %>-carousel" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
