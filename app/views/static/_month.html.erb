@@ -1,12 +1,8 @@
 <div id="<%= month %>" class="modal" style='display: none'>
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel"><%= month %></h4>
-      </div>
       <!-- carousel -->
-        <div id="<%= month %>-carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <div id="<%= month %>-carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner">
           <% images.values.each do |image| %>
             <% image.each_with_index do |photo, index| %>
