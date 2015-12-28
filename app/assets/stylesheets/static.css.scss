@@ -205,8 +205,12 @@ body#home {
 
 .modal {
   color: #666;
-  overflow: show;
   .carousel-caption {
+    right: 7%;
+    left: 7%;
     padding-bottom: 0;
+  }
+  img {
+    margin: auto;
   }
 }

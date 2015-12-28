@@ -38,6 +38,7 @@ module ApplicationHelper
       :image_2 => "april_1.jpg",
       :image_3 => "april_2.jpg",
       :image_4 => "april_3.JPG",
+      :image_5 => "april_4.jpg",
       :description => "Jude turned 1 in April and we celebrated with lots of friends and family!"
     },
     {
@@ -47,6 +48,7 @@ module ApplicationHelper
       :image => "may.jpg",
       :image_2 => "may_1.jpg",
       :image_3 => "may_2.jpg",
+      :image_4 => "may_3.jpg",
       :description => "As the weather warmed up and Chrissy finished with school, we were able to explore a bit more of Colorado, including Jude's first trip to the zoo."
     },
     {
@@ -55,6 +57,8 @@ module ApplicationHelper
       :caption => "",
       :image => "june.jpg",
       :image_2 => "june_1.jpg",
+      :image_3 => "june_2.jpg",
+      :image_4 => "june_3.jpg",
       :description => "Jude, a master walker by June, began learning a new skill, swimming!!! This boy loves pooltime, popsicles, and bike rides even more than his mom and dad. A couple other exciting firsts of note, first haircut and first Cardinals & Rockies game."
     },
     {
@@ -62,8 +66,8 @@ module ApplicationHelper
       :name => "july",
       :caption => "",
       :image => "july_1.jpg",
-      :image_2 => "july_2.jpg",
-      :image_3 => "july.jpg",
+      :image_2 => "july.jpg",
+      :image_3 => "july_2.jpg",
       :description => "In July, we took our first big trip with Jude, meeting lots of Lauren's mom's family in St. Louis for Tim and Sarah's wedding, after first stopping in Columbia, MO to celebrate Grandma Lou's 85th birthday with the St. Johns."
     },
     {
@@ -74,6 +78,7 @@ module ApplicationHelper
       :image_2 => "august_1.jpg",
       :image_3 => "august_2.jpg",
       :image_4 => "august.jpg",
+      :image_5 => "august_4.jpg",
       :description => "We finally moved into a new house in August, as our apartment had grown too small for our boy. We also enjoyed hosting Lauren's folks in from Indiana and attending the nuptuals of our friends, Nick & Ellie Morris in beautiful Steamboat Springs, CO. August was also a turning point for Jude against the dreaded ear infection. We tubed that boys ears real nice."
     },
     {
@@ -84,6 +89,7 @@ module ApplicationHelper
       :image_2 => "september_2.jpg",
       :image_3 => "september_1.jpg",
       :image_4 => "september_3.jpg",
+      :image_5 => "september_4.jpg",
       :description => "September is the best, football games, concerts at Red Rocks, beautiful mountain hikes, brunches, and lauren's 32nd birthday."
     },
     {
@@ -94,6 +100,7 @@ module ApplicationHelper
       :image_2 => "october_3.jpg",
       :image_3 => "october_2.jpg",
       :image_4 => "october.jpg",
+      :image_5 => "october_4.jpg",
       :description => "We kicked off October by visiting Chris' folks in Iowa, introducing Jude to farm life, and ended the month by introducing Jude to Harry Potter, a magical world we can't wait to explore with our boy. We also fostered Jude's growing obsession with Trains, exploring the Colorado Train Musuem with Lauren's dad."
     },
     {
@@ -102,6 +109,9 @@ module ApplicationHelper
       :caption => "",
       :image => "november.jpg",
       :image_2 => "november_1.jpg",
+      :image_3 => "november_2.jpg",
+      :image_4 => "november_3.jpg",
+      :image_5 => "november_4.jpg",
       :description => "Chris began a new job at UnitedHealth Group / Optum Technologies, we explored the Denver Air museum with Jude's friend Jordy and Mica and hosted the Luhrings for Turkey Day 2015."
     },
     {
