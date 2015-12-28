@@ -28,7 +28,7 @@ module ApplicationHelper
       :image_3 => "march_2.jpg",
       :image_4 => "march_3.jpg",
       :image_5 => "march_4.jpg",
-      :description => "Things started to warm up in March, and we introduced Giant Baby to grass.  it took him a while to warm up to it, but now he likes how it tickles his toes!"
+      :description => "Things started to warm up in March, and we introduced Giant Baby to grass.  Jude wasn't sure about it at first, but now he likes how it tickles his toes!"
     },
     {
       :month => 4,
@@ -39,7 +39,7 @@ module ApplicationHelper
       :image_3 => "april_2.jpg",
       :image_4 => "april_3.JPG",
       :image_5 => "april_4.jpg",
-      :description => "in April we celebrated Jude's 1st birthday and were lucky to party with lots of friends and family!"
+      :description => "In April we celebrated Jude's 1st birthday and were lucky to party with lots of friends and family!"
     },
     {
       :month => 5,
@@ -59,7 +59,7 @@ module ApplicationHelper
       :image_2 => "june_1.jpg",
       :image_3 => "june_2.jpg",
       :image_4 => "june_3.jpg",
-      :description => "Jude, a master walker by June, began learning a new skill...swimming!!! This boy loves pooltime, popsicles, and bike rides even more than his mom and dad. A couple other exciting firsts of note include Jude's first haircut and first Cardinals & Rockies game."
+      :description => "Jude, a master walker by June, began learning a new skill...swimming!!! This boy loves pooltime, popsicles, and bike rides even more than his mom and dad. A couple other exciting firsts of note include Jude's first haircut and his first Cardinals & Rockies game."
     },
     {
       :month => 7,
@@ -109,10 +109,10 @@ module ApplicationHelper
       :caption => "",
       :image => "november.jpg",
       :image_2 => "november_1.jpg",
-      :image_3 => "november_2.jpg",
+      :image_3 => "november_5.jpg",
       :image_4 => "november_3.jpg",
       :image_5 => "november_4.jpg",
-      :description => "in November, Chris began a new job at UnitedHealth Group / Optum Technologies, we explored the Denver Air museum, and hosted the Luhrings for Turkey Day 2015."
+      :description => "In November, Chris began a new job at UnitedHealth Group / Optum Technologies, we explored the Denver Air museum, and hosted the Luhrings for Turkey Day 2015."
     },
     {
       :month => 12,
@@ -120,6 +120,7 @@ module ApplicationHelper
       :caption => "",
       :image => "december.jpg",
       :image_2 => "december_1.jpg",
+      :image_3 => "december_2.JPG",
       :description => "December always seems to fly by and this year was no exception. All of the sudden it's Christmas Day in Fort Wayne, IN and our Christmas App Card isn't finished! Thanks for taking time to come this far with us. We love you and thank you for caring about our family. Looking forward to many more firsts in 2016!"
     }
   ]
