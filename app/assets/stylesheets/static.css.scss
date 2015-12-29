@@ -40,20 +40,27 @@ body#home {
   margin: 40px;
 }
 
+.photo-and-game {
+  margin: 30px 0;
+}
+
 #left-body {
   padding-left: 30px;
+  padding-top: 3%;
 }
 
 #words {
   background:#7f7f7f;
   background:rgba(255,255,255,0.5);
   color: black;
-  padding: 20px;
+  margin-left: 30px;
+  padding: 40px;
   padding-top: 40px;
   border-radius: 10px;
   #signature {
     font-family: Channel;
     float: right;
+    padding-right: 100px;
   }
 }
 
@@ -68,11 +75,12 @@ body#home {
 }
 
 #snow-globe {
+  padding-top: 3%;
   margin: 30px;
   img {
-    margin-bottom: -75px;
-    height: 400px;
-    max-width: 400px;
+    margin-bottom: -55px;
+    height: 250px;
+    max-width: 250px;
     border-radius: 200px;
   }
   #house {
@@ -82,30 +90,34 @@ body#home {
   #snow {
     box-shadow: inset 0 0 10em #fff;
     position: relative;
-    margin-top: -400px;
+    margin-top: -250px;
     z-index: 30;
   }
   #address {
     position: relative;
     z-index: 999;
     padding: 7px;
-    width: 350px;
+    width: 250px;
     text-align: center;
     background: linear-gradient(to top, #333, #666);
     border-radius: 60px 60px 10px 10px;
-    h3 {
+    h4 {
       font-family: 'Channel';
       padding: 10px;
-    }
-    p {
-      font-size: 16px;
     }
   }
 }
 
 #game {
-  margin: 10px;
-  height: 320px;
+  padding-top: 5%;
+  width: 94%;
+  margin: 0 auto;
+}
+
+#game-container {
+  background: linear-gradient(to top, #666, #eee);
+  height: 498px;
+  border-radius: 10px;
 }
 
 #myCanvas {
@@ -117,11 +129,13 @@ body#home {
 #game-text {
   text-align: center;
   font-family: 'Channel';
+  margin-top: 10px;
 }
 
 #home-photo {
   border-radius: 10px;
   margin-bottom: 20px;
+  padding-right: 15px;
   img {
     clear: both;
     max-width: 100%;
@@ -130,8 +144,9 @@ body#home {
 }
 
 #calendar-button {
+  width: 200px;
   padding: 10px;
-  margin-top: 15%;
+  float: left;
   text-align: center;
   background: linear-gradient(to bottom, #006400, #4c924c);
   border-radius: 50px;

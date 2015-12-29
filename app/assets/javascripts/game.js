@@ -1,7 +1,7 @@
 function getThoseFlakes() {
 
-  var CANVAS_WIDTH = 527;
-  var CANVAS_HEIGHT = 320;
+  var CANVAS_WIDTH = 515;
+  var CANVAS_HEIGHT = 420;
 
   var canvasElement = $("<canvas id='myCanvas' width='" + CANVAS_WIDTH +
                         "' height='" + CANVAS_HEIGHT + "'></canvas>");
@@ -57,27 +57,22 @@ function getThoseFlakes() {
       enemy.draw();
     });
 
-    canvas.fillStyle = "rgb(250, 250, 250)";
-    canvas.font = "24px Channel";
+    canvas.fillStyle = "#cc0000";
+    canvas.font = "20px Channel";
     canvas.textAlign = "start";
     canvas.moveTo(180, 900);
     canvas.textBaseline = "Bottom";
-    canvas.fillText("Snowflakes Caught: " + snowflakesCaught, 82, 42);
-    // if(coinsCaught == 5) {
-    //     window.location = "5.html";
-    //   };
+    canvas.fillText("Snowflakes Caught: " + snowflakesCaught, 120, 42);
   }
 
   var player = {
     color: "#000",
     x: 220,
-    y: 270,
+    y: 370,
     width: 32,
     height: 32,
     drawLeft: function() {
       this.sprite1.draw(canvas, this.x, this.y);
-      // canvas.fillStyle = this.color;
-      // canvas.fillRect(this.x, this.y, this.width, this.height);
     },
     drawRight: function() {
       this.sprite2.draw(canvas, this.x, this.y);
@@ -114,8 +109,6 @@ function getThoseFlakes() {
 
     I.draw = function() {
       this.sprite.draw(canvas, this.x, this.y);
-      // canvas.fillStyle = this.color;
-      // canvas.fillRect(this.x, this.y, this.width, this.height);
     };
 
     I.update = function() {
@@ -144,15 +137,6 @@ function getThoseFlakes() {
   }
 
   function handleCollisions() {
-    // playerBullets.forEach(function(bullet) {
-    //   enemies.forEach(function(enemy) {
-    //     if (collides(bullet, enemy)) {
-    //       enemy.explode();
-    //       bullet.active = false;
-    //     }
-    //   });
-    // });
-
     enemies.forEach(function(enemy) {
       if (collides(enemy, player)) {
         enemy.explode();
@@ -163,7 +147,6 @@ function getThoseFlakes() {
 
   player.explode = function() {
     snowflakesCaught += 1;
-
   };
 
   var snowflakesCaught = 0;
@@ -171,5 +154,4 @@ function getThoseFlakes() {
   player.sprite1 = Sprite("tongue1");
   player.sprite2 = Sprite("tongue2");
   player.sprite3 = Sprite("lips9");
-
 }
