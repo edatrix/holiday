@@ -1,0 +1,93 @@
+<body id="home-15">
+  <h1 id="merry-christmas">merry christmas<span class="small"> and a happy new year</span></h1>
+
+  <div class="row">
+    <div class="col-sm-9" id="words">
+      <p>happy holidays, friends!  we're so thankful that you're a part of our lives and are glad you stopped by to see what's been going on in ours.</p>
+      <p>
+        2015 has been a whirlwind of a year for us.  Chris finished an intensive program at the Turing School of Software and Design in May and in August we moved to a new home in Louisville, CO.  lauren still enjoys working at the National Renewable Energy Laboratory in Golden, CO, and in November, Chris started a new job at UnitedHealth Group's Optum Technologies.
+      </p>
+      <p>
+        we still love living in Colorado and spent as much time as we could enjoying the gorgeous weather.  we made good use of our membership to the Denver Botanic Gardens and were sure to find lots of time for hiking, swimming, and attending outdoor concerts.
+      </p>
+      <p>
+        our big boy Jude is now 20 months old and loves reading books, Thomas the Train, playing with legos and blocks, bossing us around, and eating all the things.  both he and our fat cat, Julius, love our new home, but we are sad that our dog, Sandy, couldn't enjoy more time in it with us.  shortly after we moved and more than 8 years after we adopted her from the Denver Dumb Friends League, Sandy passed away.  she was the best dog.
+      </p>
+      <p>
+        wishing you all the best in this new year and sending you all our love,
+      </p>
+      <br>
+      <p id="signature">
+        lauren, chris, and jude
+      </p>
+      <div id="calendar-button">
+        <%= link_to "#year-in-review" do %>
+          2015 in review <i class="fa fa-tree"></i>
+        <% end %>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div id="snow-globe">
+        <%= image_tag "1208_jefferson.jpg", :id => "house", :class => "center-block" %>
+        <%= image_tag "https://media.giphy.com/media/4M6xlFxZskH8A/giphy.gif", :id => "snow", :class => "center-block" %>
+        <div id="address" class="center-block">
+          <h4>We've moved!</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row photo-and-game">
+    <div class="col-md-5" id="left-body">
+      <div id="game-container">
+        <div id="game" class="center-block"></div>
+        <div id="game-text">
+          <p>catch the snowflakes on your tongue!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <div id="home-photo">
+        <%= image_tag "family.jpg" %>
+      </div>
+    </div>
+  </div>
+
+  <div id="year-in-review">
+    <div id="ribbon" class="row">
+      <%= image_tag "tada.png", :class => "tada" %>
+      <p>2015 in review</p>
+      <%= image_tag "tada.png", :class => "tada" %>
+    </div>
+    <div class="row">
+      <% ApplicationHelper::MONTHS.each do |month| %>
+        <%= link_to "#" + "#{month[:name]}", 'data-toggle' => 'modal' do %>
+          <div class="col-sm-3">
+            <div class="month">
+              <%= image_tag "#{month[:image]}", :alt_text => "#{month[:caption]}" %>
+              <p class="hover-text">
+                <%= "#{month[:name]}" %>
+              </p>
+            </div>
+          </div>
+        <% end %>
+        <%= render :partial => "month", :locals => {
+                                        :month => "#{month[:name]}",
+                                        :description => "#{month[:description]}",
+                                        :image_2 => "#{month[:image_2]}",
+                                        :image_3 => "#{month[:image_3]}",
+                                        :image_4 => "#{month[:image_4]}",
+                                        :image_5 => "#{month[:image_5]}",
+                                        :images => {:images => ["#{month[:image_2]}",
+                                                                "#{month[:image_3]}",
+                                                                "#{month[:image_4]}",
+                                                                "#{month[:image_5]}"]}
+                                       } %>
+      <% end %>
+    </div>
+  </div>
+</body>
+
+<script type="text/javascript">
+  getThoseFlakes();
+</script>
