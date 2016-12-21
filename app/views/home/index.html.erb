@@ -1,2 +1,12 @@
-<div><%= link_to "2015", two015_index_path %></div>
-<div><%= link_to "2016", two016_index_path %></div>
+<div id="home" class="col-md-12">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <div class="year">
+      <%= link_to "2016", two016_index_path, :id => "two016" %>
+    </div>
+    <div class="year">
+      <%= link_to "2015", two015_index_path, :id => "two015" %>
+    </div>
+  </div>
+  <div class="col-md-4"></div>
+</div>

@@ -19,3 +19,22 @@
   font-weight: normal;
   font-style: normal;
 }
+
+// index page
+#home {
+  font-family: "Channel";
+  text-align: center;
+  #two016 {
+    font-size: 75px;
+  }
+  #two015 {
+    font-size: 45px;
+  }
+  a:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .year {
+    margin: 40% 0px;
+  }
+}
